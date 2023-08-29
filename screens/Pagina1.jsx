@@ -1,12 +1,13 @@
-import React from 'react'
-import { Button, Text } from 'react-native'
-import Card from '../components/Card'
+import React from "react";
+import { Button, Text } from "react-native";
+import Card from "../components/Card";
 
-const Pagina1 = () => {
+const Pagina1 = ({ navigation }) => {
   return (
-   <>
-   
-   <Card titulo="Sem conteúdo" />
+    <>
+      <Button title="Página 2" onPress={() => navigation.navigate("pagina2")} />
+      <Button title="Página 3" onPress={() => navigation.navigate("pagina3")} />
+      <Card titulo="Sem conteúdo" />
       <Card titulo="Mobile">
         <Text>React Native</Text>
       </Card>
@@ -18,11 +19,9 @@ const Pagina1 = () => {
         <Button title="Detalhes" />
       </Card>
 
-      <Card titulo="Flamengo Cheirniho">
-      </Card>
-   
-   </>
-  )
-}
+      <Card titulo="Flamengo Cheirinho"></Card>
+    </>
+  );
+};
 
-export default Pagina1
+export default Pagina1;
