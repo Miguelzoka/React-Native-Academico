@@ -6,6 +6,7 @@ import Pagina2 from "./screens/Pagina2";
 import Pagina3 from "./screens/Pagina3";
 import Arrays from "./screens/Arrays";
 import Objeto from "./screens/Objeto";
+import Estado from "./screens/Estado";
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +15,7 @@ export default function App() {
     <>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen name="estados" component={Estado} options={{title: 'Estado'}}/>
           <Stack.Screen name="objetos" component={Objeto} options={{title: 'Objeto'}}/>
           <Stack.Screen name="arrays" component={Arrays} options={{title: 'Arrays'}}/>
           <Stack.Screen name="pagina1" component={Pagina1} options={{title: 'Página Principal'}}/>

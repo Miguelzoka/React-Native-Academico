@@ -32,14 +32,7 @@ const Objeto = () => {
       cor: "Prata",
       foto: "https://4.bp.blogspot.com/-NhLTGh1Mqjk/XLoe86peT9I/AAAAAAAAURo/MykxFkTVSxABlURVE7z-okcJOPLrhK-0QCLcBGAs/s1600/Novo-Onix-Prisma-2020.JPG",
     },
-    {
-      marca: "Jeep",
-      modelo: "Wrangler",
-      ano: 2018,
-      cor: "Preto",
-      foto: "https://th.bing.com/th/id/R.8d254d4892a78cd00b560de268c921a4?rik=C4Lnjs87VzvdfQ&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2f2018-jeep-wrangler-unlimited-rubicon-eb.jpg&ehk=lJTkf546Xl%2b5GzlS0gKeRvl998Prdcb0CEBQ3hhwdcM%3d&risl=&pid=ImgRaw&r=0",
-    },
-  ];
+  ]
 
   return (
     <>
